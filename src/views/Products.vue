@@ -77,6 +77,7 @@ export default {
         });
     },
     openModal(isNew, item) { // 開啟方法
+      // console.log(isNew, item);
       if (isNew) {
         this.tempProduct = {};
       } else {
